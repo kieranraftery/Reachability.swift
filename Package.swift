@@ -8,7 +8,6 @@ let package = Package(
     products: [
         .library(
             name: "Reachability",
-            platforms: [.iOS(.v12)],
             targets: ["Reachability"]),
     ],
     targets: [
